@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Treenipäiväkirja</string>
+    <string name="button_lisaa">Lisää</string>
+    <string name="button_nayta">Näytä</string>
+    <string name="button_poista">Poista</string>
+    <string name="button_tallenna">Tallenna</string>
+    <string name="main_screen">Treenit</string>
+    <string name="treenit">lawl</string>
+    <string name="lisaa_uusi_treeni_viesti">Lisää uusi Treeni</string>
+    <string name="lisays_teksti1">Päivämäärä</string>
+    <string name="lisays_teksti2">Treenityyppi</string>
+    <string name="nayta_treeni_tarkemmin">Treenin sisältö</string>
+</resources>

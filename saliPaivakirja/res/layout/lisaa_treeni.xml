@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lisays_teksti1"/>
+        <EditText 
+            android:id="@+id/paivamaara"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"/>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lisays_teksti2"/>
+        <EditText 
+            android:id="@+id/treenityyppi"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"/>
+    </TableRow>
+    
+    <TableRow>
+        <Button
+            android:id="@+id/talletus_nappula_treeni"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/button_tallenna"/> 
+    </TableRow>
+    
+</TableLayout>
